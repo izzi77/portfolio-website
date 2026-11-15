@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - Portfolio</title>
+     <meta name="description" content="Portfolio van Issam Lamsayeh, student systeem- en netwerkbeheer aan AP Hogeschool.">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 text-[#1E3A5F] font-sans antialiased">
+    <div class="max-w-7xl mx-auto px-6 py-6">
+        <header class="flex flex-col sm:flex-row items-center justify-between gap-4 pb-6 border-b border-[#73a98f]/30">
+            <div class="flex items-center gap-3">
+                <img src="images/logo.png" alt="Logo" width="48" height="48" class="size-12 object-contain">
+                <span class="text-2xl font-bold tracking-tight text-[#1E3A5F]">Issam Lamsayeh &vert; Portfolio IT</span>
+            </div>
+            <nav>
+                <ul class="flex flex-wrap gap-2 sm:gap-4 justify-center">
+                    <li><a href="index.html" class="block px-4 py-2 rounded-lg text-[#1E3A5F] hover:bg-[#73a98f]/20">home</a></li>
+                    <li><a href="portfolio.html" class="block px-4 py-2 rounded-lg text-[#1E3A5F] hover:bg-[#73a98f]/20">portfolio</a></li>
+                    <li><a href="project.html" class="block px-4 py-2 rounded-lg bg-[#1E3A5F] text-white font-semibold" aria-current="page">project</a></li>
+                    <li><a href="contact.html" class="block px-4 py-2 rounded-lg text-[#1E3A5F] hover:bg-[#73a98f]/20">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 py-8">
+            <main class="lg:col-span-3 space-y-6">
+                <section class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+                    <h1 class="text-3xl font-bold mb-6 text-[#1E3A5F]">Project Details &colon; Netwerk Segmentatie</h1>
+                    
+                    <svg class="w-full aspect-video rounded-lg bg-[#1E3A5F] mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 337">
+                        <rect width="100%" height="100%" fill="#1E3A5F"/>
+                        <rect x="150" y="80" width="300" height="177" rx="8" fill="#73a98f"/>
+                        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-size="20" font-family="sans-serif">Schema VLAN Architectuur</text>
+                    </svg>
+
+                    <div class="grid grid-cols-3 gap-4 mb-6">
+                        <div class="aspect-video bg-slate-100 rounded border border-slate-200 flex items-center justify-center text-xs text-slate-500">Thumb 1</div>
+                        <div class="aspect-video bg-slate-100 rounded border border-slate-200 flex items-center justify-center text-xs text-slate-500">Thumb 2</div>
+                        <div class="aspect-video bg-slate-100 rounded border border-slate-200 flex items-center justify-center text-xs text-slate-500">Thumb 3</div>
+                    </div>
+
+                    <p class="text-slate-700 leading-relaxed mb-6 text-lg">
+                        In dit project werd een fysiek netwerk opgesplitst in meerdere virtuele netwerken &lpar;VLAN&apos;s&rpar;&period; Hierdoor wordt de veiligheid van het interne netwerk sterk verbeterd en zijn gastenapparaten volledig geïsoleerd van gevoelige data&period;
+                    </p>
+
+                    <div class="overflow-x-auto mb-8">
+                        <table class="w-full border-collapse text-left bg-white rounded-lg overflow-hidden border border-[#73a98f]/30">
+                            <caption class="text-left text-sm text-slate-500 mb-2">Specificaties &amp; hardware overzicht</caption>
+                            <thead>
+                                <tr class="bg-[#1E3A5F] text-white">
+                                    <th scope="col" class="p-4">Onderdeel</th>
+                                    <th scope="col" class="p-4">Type</th>
+                                    <th scope="col" class="p-4 text-right">Kostprijs</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200">
+                                <tr>
+                                    <th scope="row" class="p-4 font-normal">Managed Switch</th>
+                                    <td class="p-4">8&dash;Port Gigabit</td>
+                                    <td class="p-4 text-right">&euro;&nbsp;85&comma;00</td>
+                                </tr>
+                                <tr class="bg-slate-50">
+                                    <th scope="row" class="p-4 font-normal">Router Hardware</th>
+                                    <td class="p-4">pfSense Mini PC</td>
+                                    <td class="p-4 text-right">&euro;&nbsp;180&comma;00</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr class="bg-[#73a98f]/20 font-bold">
+                                    <th scope="row" colspan="2" class="p-4">Totaal geschat budget</th>
+                                    <td class="p-4 text-right">&euro;&nbsp;265&comma;00</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                    <a href="portfolio.html" class="inline-block px-6 py-3 bg-[#1E3A5F] text-white font-bold rounded-lg hover:bg-[#1E3A5F]/90">terug naar portfolio</a>
+                </section>
+            </main>
+
+            <aside class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm h-fit space-y-4">
+                <h2 class="text-xl font-bold text-[#1E3A5F]">Snelle Navigatie</h2>
+                <p class="text-sm text-slate-700 leading-relaxed">
+                    Bekijk ook mijn andere projecten of neem contact op voor vragen over deze implementatie&period;
+                </p>
+                <a href="portfolio.html" class="block w-full text-center py-2.5 bg-[#F28C38] text-white font-bold rounded-lg hover:bg-[#F28C38]/90">bekijk project</a>
+            </aside>
+        </div>
+
+        <footer class="flex flex-col sm:flex-row items-center justify-between gap-2 pt-6 border-t border-[#73a98f]/30 text-sm text-slate-600">
+            <p>&copy;&nbsp;2026 Issam Lamsayeh &hyphen; Alle rechten voorbehouden&period;</p>
+            <p>E&dash;mail&colon; <a href="mailto:issam.lamsayeh@student.ap.be" class="text-[#F28C38] font-semibold hover:underline">issam&period;lamsayeh&commat;student&period;ap&period;be</a></p>
+        </footer>
+    </div>
+</body>
+</html>

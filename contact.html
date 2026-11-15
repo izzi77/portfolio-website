@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mijn Portfolio</title>
+     <meta name="description" content="Portfolio van Issam Lamsayeh, student systeem- en netwerkbeheer aan AP Hogeschool.">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 text-[#1E3A5F] font-sans antialiased">
+    <div class="max-w-7xl mx-auto px-6 py-6">
+        <header class="flex flex-col sm:flex-row items-center justify-between gap-4 pb-6 border-b border-[#73a98f]/30">
+            <div class="flex items-center gap-3">
+                <img src="images/logo.png" alt="Logo" width="48" height="48" class="size-12 object-contain">
+                <span class="text-2xl font-bold tracking-tight text-[#1E3A5F]">Issam Lamsayeh &vert; Portfolio IT</span>
+            </div>
+            <nav>
+                <ul class="flex flex-wrap gap-2 sm:gap-4 justify-center">
+                    <li><a href="index.html" class="block px-4 py-2 rounded-lg text-[#1E3A5F] hover:bg-[#73a98f]/20">home</a></li>
+                    <li><a href="portfolio.html" class="block px-4 py-2 rounded-lg text-[#1E3A5F] hover:bg-[#73a98f]/20">portfolio</a></li>
+                    <li><a href="project.html" class="block px-4 py-2 rounded-lg text-[#1E3A5F] hover:bg-[#73a98f]/20">project</a></li>
+                    <li><a href="contact.html" class="block px-4 py-2 rounded-lg bg-[#1E3A5F] text-white font-semibold" aria-current="page">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 py-8">
+            <main class="lg:col-span-3 space-y-6">
+                <section class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+                    <h1 class="text-3xl font-bold mb-4 text-[#1E3A5F]">Contacteer mij</h1>
+                    <p class="text-slate-700 mb-6 text-base">
+                        Heb je vragen over mijn projecten of wil je graag in contact komen&quest; Vul dan het onderstaande formulier in&period;
+                    </p>
+
+                    <form action="#" method="post" class="space-y-4">
+                        <div>
+                            <label for="naam" class="block text-sm font-semibold mb-1">Naam&colon;</label>
+                            <input type="text" id="naam" name="naam" class="w-full p-3 border border-slate-300 rounded-lg bg-slate-50 focus:outline-none focus:border-[#1E3A5F]">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-semibold mb-1">E&dash;mailadres&colon;</label>
+                            <input type="email" id="email" name="email" class="w-full p-3 border border-slate-300 rounded-lg bg-slate-50 focus:outline-none focus:border-[#1E3A5F]">
+                        </div>
+                        <div>
+                            <label for="bericht" class="block text-sm font-semibold mb-1">Bericht&colon;</label>
+                            <textarea id="bericht" name="bericht" rows="5" class="w-full p-3 border border-slate-300 rounded-lg bg-slate-50 focus:outline-none focus:border-[#1E3A5F]"></textarea>
+                        </div>
+                        <button type="submit" class="px-6 py-3 bg-[#F28C38] text-white font-bold rounded-lg hover:bg-[#F28C38]/90 cursor-pointer">verstuur</button>
+                    </form>
+                </section>
+            </main>
+
+            <aside class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm h-fit space-y-4">
+                <h2 class="text-xl font-bold text-[#1E3A5F]">Locatie &amp; Info</h2>
+                <p class="text-sm text-slate-700 leading-relaxed">
+                    AP Hogeschool Antwerpen<br>
+                    Systeem- en Netwerkbeheer
+                </p>
+                <div class="grid grid-cols-3 gap-2 pt-2">
+                    <div class="aspect-square bg-slate-100 rounded border border-slate-200 flex items-center justify-center text-xs text-slate-400">Icon 1</div>
+                    <div class="aspect-square bg-slate-100 rounded border border-slate-200 flex items-center justify-center text-xs text-slate-400">Icon 2</div>
+                    <div class="aspect-square bg-slate-100 rounded border border-slate-200 flex items-center justify-center text-xs text-slate-400">Icon 3</div>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="flex flex-col sm:flex-row items-center justify-between gap-2 pt-6 border-t border-[#73a98f]/30 text-sm text-slate-600">
+            <p>&copy;&nbsp;2026 Issam Lamsayeh &hyphen; Alle rechten voorbehouden&period;</p>
+            <p>E&dash;mail&colon; <a href="mailto:issam.lamsayeh@student.ap.be" class="text-[#F28C38] font-semibold hover:underline">issam&period;lamsayeh&commat;student&period;ap&period;be</a></p>
+        </footer>
+    </div>
+</body>
+</html>
